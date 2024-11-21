@@ -40,13 +40,13 @@ For example:
 
 The API returns daily COVID-19 data for each state/territory, including the number of confirmed cases and the date of each data point.
 
-## **Output**:
+## **Output**
 - The program will output the following statistics for each state/territory:
-      - **Average number of new daily confirmed cases**.
-      - **Date with the highest new number of confirmed cases**.
-      - **Most recent date with no new COVID cases**.
-      - **Month with the highest new number of confirmed cases**.
-      - **Month with the lowest new number of confirmed cases**.
+    - **Average number of new daily confirmed cases**.
+    - **Date with the highest new number of confirmed cases**.
+    - **Most recent date with no new COVID cases**.
+    - **Month with the highest new number of confirmed cases**.
+    - **Month with the lowest new number of confirmed cases**.
  - The program will also save the JSON data in a file named `<state>.json` for each state/territory.
 
 ## Example Output

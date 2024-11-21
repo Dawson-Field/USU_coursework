@@ -47,6 +47,7 @@ The program fetches cryptocurrency data from the CoinGecko API. The API provides
 ## Code Structure
 - **arbitrage.py**: Main script that handles fetching data from the API, constructing the graph, performing the graph traversal, and printing the output.
 - **crypto_exchange_graph.png**: A png showing cryptocurrency exchange rates between different cryptocurrencies.
+- **exchange_rates.json**: A JSON file containing real-time cryptocurrency exchange rates between various cryptocurrencies
 - **README.md**: This file, provides an overview of the project.
 
 ## Contact

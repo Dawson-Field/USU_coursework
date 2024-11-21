@@ -1,1 +1,1 @@
-# USUClass_Projects
+# USU_Coursework

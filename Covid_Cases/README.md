@@ -22,15 +22,9 @@ The data is output to the console and saved in a JSON file for each state/territ
 - Perform the specified calculations on the COVID-19 data for each state and territory.
 - Save the JSON data for each state/territory as `<state>.json`.
 
-### Other Requirements:
-- Use **procedural programming** for this assignment (object-oriented programming is not required).
-- Follow the **style and naming conventions** used in the class.
-- Use descriptive variable names, proper spacing, and indentation to ensure your code is easy to follow.
-- Include **comments** that explain what your program does.
-
 ## File Structure
 
-- **hw5_covid.py**: The main Python script that fetches, processes, and analyzes COVID-19 data.
+- **covid.py**: The main Python script that fetches, processes, and analyzes COVID-19 data.
 - **states_territories.txt**: A text file containing the list of U.S. state and territory codes.
 
 ## API Information
@@ -46,34 +40,14 @@ For example:
 
 The API returns daily COVID-19 data for each state/territory, including the number of confirmed cases and the date of each data point.
 
-## How to Run
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/covid-data-analysis.git
-    cd covid-data-analysis
-    ```
-
-2. **Install dependencies** (if needed):
-    If you haven't installed the required libraries, use `pip` to install `requests` (for API calls) and `json` (for working with JSON data). Typically, `json` is included in Python's standard library, but you'll need `requests`:
-    ```bash
-    pip install requests
-    ```
-
-3. **Run the program**:
-    Run the Python script to fetch and analyze COVID-19 data for each state/territory:
-    ```bash
-    python hw5_covid.py
-    ```
-
-4. **Output**:
-    - The program will output the following statistics for each state/territory:
+# **Output**:
+- The program will output the following statistics for each state/territory:
       - **Average number of new daily confirmed cases**.
       - **Date with the highest new number of confirmed cases**.
       - **Most recent date with no new COVID cases**.
       - **Month with the highest new number of confirmed cases**.
       - **Month with the lowest new number of confirmed cases**.
-    - The program will also save the JSON data in a file named `<state>.json` for each state/territory.
+ - The program will also save the JSON data in a file named `<state>.json` for each state/territory.
 
 ## Example Output
 

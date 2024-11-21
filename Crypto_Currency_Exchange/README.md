@@ -6,9 +6,9 @@ This program aims to explore cryptocurrency exchange rates using graph traversal
 The program will fetch real-time exchange rates from the CoinGecko API and use the NetworkX library to build a directed graph. It will then calculate and compare the exchange rates along different paths between cryptocurrency nodes to detect any discrepancies in pricing, which can be leveraged for profit.
 
 # Requirements
-Python 3.x
-NetworkX library for graph creation and traversal
-requests library for fetching real-time data from the CoinGecko API
+- Python 3.x
+- NetworkX library for graph creation and traversal
+- requests library for fetching real-time data from the CoinGecko API
 
 # Libraries:
 To install the necessary libraries, run the following command in a terminal:
@@ -28,8 +28,8 @@ To install the necessary libraries, run the following command in a terminal:
     - It checks for arbitrage opportunities by comparing paths between two currencies in both directions.
     - If the product of the weights of both paths deviates from 1.0, it indicates a dis-equilibrium, and thus an arbitrage opportunity.
 4. Output:
-    -The program outputs all paths between currency pairs along with their calculated weight and path weight factor.
-    -It also identifies the smallest and largest path weight factors to highlight the best arbitrage opportunities.
+    - The program outputs all paths between currency pairs along with their calculated weight and path weight factor.
+    - It also identifies the smallest and largest path weight factors to highlight the best arbitrage opportunities.
 
 # Data Sources
 The program fetches cryptocurrency data from the CoinGecko API. The API provides real-time pricing information, which is parsed and used to build the graph structure. The API query is configured to pull prices for the following top 7 cryptocurrencies:
@@ -46,3 +46,6 @@ The program fetches cryptocurrency data from the CoinGecko API. The API provides
 - arbitrage.py: Main script that handles fetching data from the API, constructing the graph, performing the graph traversal, and printing the output.
 - requirements.txt: A file listing the required Python packages for the project.
 - README.md: This file, providing an overview of the project.
+
+# Contact
+For any questions or feedback, feel free to contact me at [dawsontfield@gmail.com](mailto:dawsontfield@gmail.com).

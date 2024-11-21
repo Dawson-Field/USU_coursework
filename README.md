@@ -7,7 +7,7 @@ Welcome to my repository showcasing various class projects from my academic jour
 This repository is organized into different folders for each assignment. Below is a list of the projects included in this repository:
 
 - **[Blackjack](Blackjack/)**: A simple implementation of the Blackjack card game in Python, where the user competes against a dealer.
-- **[Cryptocurrency_Exchange](crypto-arbitrage/)**: A program that analyzes cryptocurrency exchange rates using graph traversal techniques to detect potential arbitrage opportunities.
+- **[Cryptocurrency_Exchange](cryptocurrency_exchange/)**: A program that analyzes cryptocurrency exchange rates using graph traversal techniques to detect potential arbitrage opportunities.
 - **[Other Assignments](other-assignments/)**: This folder contains other various assignments and projects I have completed during my studies, such as database management tasks, data visualization, and analysis projects.
 
 ## Contact

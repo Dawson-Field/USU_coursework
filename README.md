@@ -8,7 +8,7 @@ This repository is organized into different folders for each assignment. Below i
 
 - **[Blackjack](Blackjack/)**: A simple implementation of the Blackjack card game in Python, where the user competes against a dealer.
 - **[Cryptocurrency Exchange](cryptocurrency_exchange/)**: A program that analyzes cryptocurrency exchange rates using graph traversal techniques to detect potential arbitrage opportunities.
-- **[Other Assignments](other_assignments/)**: This folder contains other various assignments and projects I have completed during my studies, such as database management tasks, data visualization, and analysis projects.
+- **[Other Assignments](other_assignments/)**: This folder contains other various assignments and projects I have completed during my studies.
 
 ## Contact
 

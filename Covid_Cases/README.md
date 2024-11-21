@@ -40,7 +40,7 @@ For example:
 
 The API returns daily COVID-19 data for each state/territory, including the number of confirmed cases and the date of each data point.
 
-# **Output**:
+## **Output**:
 - The program will output the following statistics for each state/territory:
       - **Average number of new daily confirmed cases**.
       - **Date with the highest new number of confirmed cases**.

@@ -8,6 +8,7 @@ This repository is organized into different folders for each assignment. Below i
 
 - **[Blackjack](Blackjack/)**: A simple implementation of the Blackjack card game in Python, where the user competes against a dealer.
 - **[Cryptocurrency Exchange](cryptocurrency_exchange/)**: A program that analyzes cryptocurrency exchange rates using graph traversal techniques to detect potential arbitrage opportunities.
+- **[Covid-19 Data Analysis](covid_cases/)**: Performs analysis on the number of COVID-19 cases across 50 U.S. states and 5 U.S. territories using the **COVID Tracking Project's public API**
 - **[Other Assignments](other_assignments/)**: This folder contains other various assignments and projects I have completed during my studies.
 
 ## Contact

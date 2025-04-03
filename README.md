@@ -1,6 +1,6 @@
 # Dawson Field's USU Class Projects
 
-Welcome to my repository showcasing various class projects from my academic journey at Utah State University. This collection includes assignments, coding projects, and data analyses from courses related to data engineering, database management, and more. This repository is a way for me to consolidate my learning, highlight my skills, and provide a useful portfolio for anyone interested in seeing the work I’ve done.
+Welcome to my repository showcasing various class projects from my academic journey at Utah State University. This collection includes assignments, coding projects, and data analyses from some courses during my time at USU. This repository is a way for me to consolidate my learning, highlight my skills, and provide a useful portfolio for anyone interested in seeing the work I’ve done.
 
 ## Projects Overview
 

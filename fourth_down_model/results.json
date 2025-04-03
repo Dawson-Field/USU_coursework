@@ -1,0 +1,198 @@
+{
+    "keras_accuracy": 0.9402466013278533,
+    "pycaret_best_model": "LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,\n               importance_type='split', learning_rate=0.1, max_depth=-1,\n               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,\n               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,\n               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,\n               subsample_for_bin=200000, subsample_freq=0)",
+    "team_compliance": [
+        {
+            "original_posteam": "CLE",
+            "actual_go_for_it": 34,
+            "model_go_for_it": 31,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "CHI",
+            "actual_go_for_it": 28,
+            "model_go_for_it": 30,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "NYG",
+            "actual_go_for_it": 26,
+            "model_go_for_it": 23,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "ATL",
+            "actual_go_for_it": 26,
+            "model_go_for_it": 29,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "DAL",
+            "actual_go_for_it": 26,
+            "model_go_for_it": 23,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "CAR",
+            "actual_go_for_it": 25,
+            "model_go_for_it": 27,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "MIA",
+            "actual_go_for_it": 25,
+            "model_go_for_it": 29,
+            "category": "Conservative"
+        },
+        {
+            "original_posteam": "JAX",
+            "actual_go_for_it": 23,
+            "model_go_for_it": 19,
+            "category": "Aggressive"
+        },
+        {
+            "original_posteam": "DET",
+            "actual_go_for_it": 22,
+            "model_go_for_it": 16,
+            "category": "Aggressive"
+        },
+        {
+            "original_posteam": "LV",
+            "actual_go_for_it": 21,
+            "model_go_for_it": 23,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "NO",
+            "actual_go_for_it": 20,
+            "model_go_for_it": 20,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "IND",
+            "actual_go_for_it": 20,
+            "model_go_for_it": 25,
+            "category": "Conservative"
+        },
+        {
+            "original_posteam": "LA",
+            "actual_go_for_it": 20,
+            "model_go_for_it": 17,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "PHI",
+            "actual_go_for_it": 20,
+            "model_go_for_it": 20,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "SEA",
+            "actual_go_for_it": 18,
+            "model_go_for_it": 19,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "TEN",
+            "actual_go_for_it": 18,
+            "model_go_for_it": 17,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "NE",
+            "actual_go_for_it": 16,
+            "model_go_for_it": 19,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "DEN",
+            "actual_go_for_it": 16,
+            "model_go_for_it": 15,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "NYJ",
+            "actual_go_for_it": 15,
+            "model_go_for_it": 19,
+            "category": "Conservative"
+        },
+        {
+            "original_posteam": "WAS",
+            "actual_go_for_it": 15,
+            "model_go_for_it": 17,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "CIN",
+            "actual_go_for_it": 15,
+            "model_go_for_it": 20,
+            "category": "Conservative"
+        },
+        {
+            "original_posteam": "BUF",
+            "actual_go_for_it": 15,
+            "model_go_for_it": 13,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "PIT",
+            "actual_go_for_it": 14,
+            "model_go_for_it": 9,
+            "category": "Aggressive"
+        },
+        {
+            "original_posteam": "HOU",
+            "actual_go_for_it": 13,
+            "model_go_for_it": 13,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "ARI",
+            "actual_go_for_it": 13,
+            "model_go_for_it": 11,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "SF",
+            "actual_go_for_it": 12,
+            "model_go_for_it": 9,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "BAL",
+            "actual_go_for_it": 12,
+            "model_go_for_it": 7,
+            "category": "Aggressive"
+        },
+        {
+            "original_posteam": "KC",
+            "actual_go_for_it": 11,
+            "model_go_for_it": 13,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "TB",
+            "actual_go_for_it": 11,
+            "model_go_for_it": 11,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "LAC",
+            "actual_go_for_it": 10,
+            "model_go_for_it": 8,
+            "category": "Balanced"
+        },
+        {
+            "original_posteam": "GB",
+            "actual_go_for_it": 10,
+            "model_go_for_it": 15,
+            "category": "Conservative"
+        },
+        {
+            "original_posteam": "MIN",
+            "actual_go_for_it": 8,
+            "model_go_for_it": 8,
+            "category": "Balanced"
+        }
+    ]
+}

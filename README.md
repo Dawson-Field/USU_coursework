@@ -9,6 +9,7 @@ This repository is organized into different folders for each assignment. Below i
 - **[Cryptocurrency Exchange](cryptocurrency_exchange/)**: A program that analyzes cryptocurrency exchange rates using graph traversal techniques to detect potential arbitrage opportunities.
 - **[Black Jack](blackjack/)**: A simulation of a simple version of the card game Blackjack (also known as 21).
 - **[Covid Analysis](covid_cases/)**: An analysis on the number of COVID-19 cases across 50 U.S. states and 5 U.S. territories using the **COVID Tracking Project's public API**. 
+- **[Fourth Down Model](fourth_down_model/)**: A data analysis project that examines NFL fourth down decision-making using play-by-play data.
 
 ## Contact
 

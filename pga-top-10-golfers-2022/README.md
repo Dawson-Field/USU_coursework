@@ -36,6 +36,8 @@ The following CSV files were used to power the Tableau dashboard (stored in the 
 
 ## 🖼️ Preview
 
+> Note: The image below is a screenshot. For the full interactive experience, please use the live dashboard link above.
+
 ![PGA Tour Dashboard](images/dashboard_preview.png)
 
 ---

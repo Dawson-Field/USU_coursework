@@ -2,6 +2,8 @@
 
 This project analyzes NFL teams' fourth down decision-making tendencies and categorizes teams into three distinct styles: aggressive, balanced, or conservative. The model uses historical NFL play-by-play data to understand what factors most influence teams' fourth down decisions and how these decisions vary across different teams.
 
+> **Note**: This project originated as a class assignment and has been significantly improved. You can view the enhanced version with additional features on a different repo at [https://github.com/Dawson-Field/nfl-4th-down-decision-model](https://github.com/Dawson-Field/nfl-4th-down-decision-model).
+
 ## Project Structure
 
 ```

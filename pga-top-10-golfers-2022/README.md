@@ -13,7 +13,7 @@ This interactive Tableau dashboard visualizes performance metrics of the **Top 1
 - **Scoring Average vs. GIR:** Shows efficiency in reaching the green
 - **Scoring Average vs. SG: Putting:** Analyzes putting skill compared to peers
 
-The scatter plots are centered around average performance — golfers in the **bottom-right quadrant** of both charts are outperforming in efficiency.
+The scatter plots are centered around average performance. Golfers in the **bottom-right quadrant** of both charts are outperforming in efficiency.
 
 ## 📁 Project Structure
 

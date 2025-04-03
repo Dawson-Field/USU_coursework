@@ -37,7 +37,7 @@ The model analyzes various factors that influence fourth down decisions, includi
 - Score differential
 - Time remaining
 - Field position
-- Yard to go
+- Yards to go
 - Timeouts remaining
 
 
@@ -77,7 +77,3 @@ Model results and predictions are stored in `results.json`, which includes:
 - Implement a web interface for easy access to team categorizations
 - Expand analysis to include other critical game decisions
 - Add historical trend analysis of team decision-making styles
-
-## License
-
-This project is open source and available for research and educational purposes. 

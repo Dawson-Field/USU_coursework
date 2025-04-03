@@ -1,6 +1,6 @@
 # Dawson Field's USU Class Projects
 
-Welcome to my repository showcasing various class projects from my academic journey at Utah State University. This collection includes assignments, coding projects, and data analyses from some courses during my time at USU. This repository is a way for me to consolidate my learning, highlight my skills, and provide a useful portfolio for anyone interested in seeing the work I’ve done.
+Welcome to my repository showcasing various class projects from my academic journey at Utah State University. This collection includes assignments, coding projects, and data analyses from some courses during my time at USU. This repository is a way for me to consolidate my learning, highlight my skills, and provide a useful portfolio for anyone interested in seeing the work I've done.
 
 ## Projects Overview
 
@@ -10,6 +10,7 @@ This repository is organized into different folders for each assignment. Below i
 - **[Black Jack](blackjack/)**: A simulation of a simple version of the card game Blackjack (also known as 21).
 - **[Covid Analysis](covid_cases/)**: An analysis on the number of COVID-19 cases across 50 U.S. states and 5 U.S. territories using the **COVID Tracking Project's public API**. 
 - **[Fourth Down Model](fourth_down_model/)**: A data analysis project that examines NFL fourth down decision-making using play-by-play data.
+- **[PGA Tour 2022 Season Analysis](pga_top_10_golfers_2022/)**: A data visualization project that examines the performance and statistics of the top 10 PGA golfers from the 2022 season, analyzing their tournament results and key performance metrics.
 
 ## Contact
 

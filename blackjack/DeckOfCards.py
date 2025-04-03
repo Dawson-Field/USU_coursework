@@ -30,9 +30,7 @@ class DeckOfCards():
         self.play_idx = 0
         
     def print_deck(self):
-        for card in self.deck:
-            print(card.face, "of", card.suit, end=", ")
-        print("---")
+        print(", ".join(f"{card.face} of {card.suit}" for card in self.deck))
         
     def get_card(self):
         self.play_idx += 1

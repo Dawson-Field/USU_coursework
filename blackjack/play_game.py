@@ -18,74 +18,91 @@ def display_hand(hand, name="Player"):
     print(f"{name}'s hand: {hand_str}")
     print(f"{name}'s score: {calculate_score(hand)}")
 
-def play_game(deck):
-    # Main function to play the Blackjack game.
-    if deck.play_idx > len(deck.deck) - 10:
-        # If there are fewer than 10 cards remaining, reshuffle the deck
-        print("Reshuffling deck...")
-        deck.shuffle_deck()
-
-    print("\nStarting a new round of Black Jack!")
-    
-    # Deal two cards to the player and two cards to the dealer
-    user_hand = [deck.get_card(), deck.get_card()]
-    dealer_hand = [deck.get_card(), deck.get_card()]
-    
-    # Display the player's initial hand
-    display_hand(user_hand, "Player")
-    
+def get_valid_input(prompt, valid_choices):
     while True:
-        choice = input("Would you like a hit? (y/n): ").strip().lower()  
-        # Ask player if they want a hit
-        
-        if choice == 'y':
-            # Add a new card to the player's hand and display the updated hand and score
-            user_hand.append(deck.get_card())
-            display_hand(user_hand, "Player")
-            
-            if calculate_score(user_hand) > 21:
-                # If the player's score exceeds 21, they bust and lose
-                print("You busted! Dealer wins.")
-                return  # End the game
-        else:
-            break  # Player chooses to stop hitting
+        choice = input(prompt).strip().lower()
+        if choice in valid_choices:
+            return choice
+        print(f"Invalid input. Please enter one of: {', '.join(valid_choices)}")
+
+def play_game(deck):
+    print("\nWelcome to Black Jack!")
+    print("\ndeck before shuffled:")
+    deck.print_deck()
     
-    # Display the dealer's intital two cards 
-    print(f"\nDealer's hand: {', '.join(f'{card.face} of {card.suit}' for card in dealer_hand[:2])}")
+    deck.shuffle_deck()
+    print("\ndeck after shuffled:")
+    deck.print_deck()
     
-    dealer_score = calculate_score(dealer_hand)  
-    # Calculate the dealer's score
+    user_hand = []
+    dealer_hand = []
     
-    # Dealer's turn: draw cards until the score is at least 17
-    while dealer_score < 17:
+    # Deal initial cards
+    for i in range(2):
+        user_hand.append(deck.get_card())
         dealer_hand.append(deck.get_card())
+    
+    # Display user's cards
+    for i, card in enumerate(user_hand, 1):
+        print(f"\nCard number {i} is: {card.face} of {card.suit}")
+    
+    user_score = calculate_score(user_hand)
+    print(f"Your total score is: {user_score}")
+    
+    # Check for automatic win with 21
+    if user_score == 21:
+        print("Blackjack! You win!")
+        return
+    
+    # User's turn
+    while True:
+        choice = get_valid_input("Would you like a hit?(y/n) ", ['y', 'n'])
+        if choice == 'y':
+            new_card = deck.get_card()
+            user_hand.append(new_card)
+            print(f"\nCard number {len(user_hand)} is: {new_card.face} of {new_card.suit}")
+            user_score = calculate_score(user_hand)
+            print(f"Your total score is: {user_score}")
+            
+            if user_score > 21:
+                print("You busted! Dealer wins!")
+                return
+        else:
+            break
+    
+    # Dealer's turn
+    print(f"\nDealer card number 1 is: {dealer_hand[0].face} of {dealer_hand[0].suit}")
+    print(f"Dealer card number 2 is: {dealer_hand[1].face} of {dealer_hand[1].suit}")
+    
+    dealer_score = calculate_score(dealer_hand)
+    card_count = 2
+    
+    while dealer_score < 17:
+        new_card = deck.get_card()
+        dealer_hand.append(new_card)
+        card_count += 1
+        print(f"Dealer hits, card number {card_count} is: {new_card.face} of {new_card.suit}")
         dealer_score = calculate_score(dealer_hand)
     
-    # Display the dealer's final hand and score
-    display_hand(dealer_hand, "Dealer")
+    print(f"Dealer score is: {dealer_score}")
     
-    # Determine the outcome of the game
-    user_score = calculate_score(user_hand)
-    
+    # Determine winner
     if dealer_score > 21:
-        print("Dealer busted, you win!")  # Dealer busts
+        print("Dealer Busted, you win!!!")
     elif user_score > dealer_score:
-        print("You win!")  # Player has a higher score
+        print("You win!")
     elif user_score < dealer_score:
-        print("Dealer wins!")  # Dealer has a higher score
+        print("Dealer score is higher, you lose!")
     else:
-        print("It's a tie!")  # Scores are equal
+        print("It's a tie!")
 
 def main():
-    # Main loop to run multiple games.
-    deck = DeckOfCards()  # Create a deck outside the game loop
-    deck.shuffle_deck()   # Shuffle the deck at the start
-
+    deck = DeckOfCards()
+    
     while True:
-        play_game(deck)  # Play a round with the current deck
-        if input("\nAnother game? (y/n): ").strip().lower() != 'y':
-            print("Thanks for playing!")
-            break  # Exit the loop and end the game
+        play_game(deck)
+        if get_valid_input("\nanother game?(y/n): ", ['y', 'n']) != 'y':
+            break
 
 if __name__ == "__main__":
-    main()  # Start the game
+    main()

@@ -13,9 +13,8 @@ This project was developed as part of a semester-long assignment for a data ware
 Throughout the project, we:
 
 - Normalized a messy dataset and built a transactional database in SQL Server
-- Designed and implemented a dimensional model using the Kimball methodology
+- Designed and implemented a dimensional model
 - Loaded data into Snowflake using Fivetran and transformed it using dbt
-- Built Tableau dashboards with customer-specific visualizations and strategic recommendations
 
 ---
 
@@ -24,8 +23,8 @@ Throughout the project, we:
 📌 **Goal**: Transform a denormalized Excel dataset into a normalized relational schema in 3NF and import it into SQL Server.
 
 ### Key Tasks:
-- Created an ERD using LucidChart, normalized to 3NF
-- Imported data into SQL Server using SSMS Import Wizard
+- Created an ERD using LucidChart
+- Imported data into SQL Server
 - Designed and populated OLTP tables
 
 ![51C9F459-7E54-4342-8D5A-9CD81EBEB045](https://github.com/user-attachments/assets/703cb808-fd03-41ef-a6f3-c8288cfdfcd8)

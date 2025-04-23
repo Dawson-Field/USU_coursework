@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: customer_dim
+    description: "Customer dimension"
+  - name: employee_dim
+    description: "Employee dimension"
+  - name: store_dim
+    description: "Store dimension"
+  - name: product_dim
+    description: "Product dimension"
+  - name: ordermethod_dim
+    description: "Order method dimension"
+  - name: date_dim
+    description: "Date dimension for tracking time"
+  - name: trafficsource_dim
+    description: "Traffic source dimension from website"
+  - name: webpage_dim
+    description: "Web page dimension"
+  - name: eventname_dim
+    description: "Event name dimension"
+  - name: fact_orderprocessing
+    description: "Fact table for processed orders"
+  - name: fact_webtraffic
+    description: "Fact table for web traffic tracking"

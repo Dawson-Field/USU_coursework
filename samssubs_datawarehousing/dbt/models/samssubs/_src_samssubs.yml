@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: samssubs_landing
+    database: dawsonfield
+    schema: samssubs_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: '"ORDER"'       
+      - name: orderdetails
+      - name: product
+      - name: sandwich
+      - name: store
+
+  - name: samssubs_web
+    database: dawsonfield
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_events

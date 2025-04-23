@@ -49,7 +49,7 @@ Throughout the project, we:
 
 📌 **Goal**: Populate the dimensional model using modern ELT techniques and cloud infrastructure.
 
-🔗 **Repo Link**: [View Deliverable 3 Code and dbt Project](https://github.com/hopemts/dw_dbt.git)
+🔗 *DBT Code**: [View Deliverable 3 Code and dbt Project](dbt/)
 
 ### Key Tasks:
 - Extracted data from:

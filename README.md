@@ -11,7 +11,7 @@ This repository is organized into different folders for each assignment. Below i
 - **[Covid Analysis](covid_cases/)**: An analysis on the number of COVID-19 cases across 50 U.S. states and 5 U.S. territories using the **COVID Tracking Project's public API**. 
 - **[Fourth Down Model](fourth_down_model/)**: A data analysis project that examines NFL fourth down decision-making using play-by-play data.
 - **[PGA Tour 2022 Season Analysis](pga_top_10_golfers_2022/)**: A data visualization project that examines the performance and statistics of the top 10 PGA golfers from the 2022 season, analyzing their tournament results and key performance metrics.
-- **[Data Warehouse[(samssubs_datawarehousing/)**: A data consulting project where we built a data warehouse for Sam’s Subs. We cleaned raw data, designed a dimensional model, automated ELT pipelines with Fivetran, Snowflake, and dbt, and delivered customer-facing visualizations through a web app built with Django and React.
+- **[Data Warehouse](samssubs_datawarehousing/)**: A data consulting project where we built a data warehouse for Sam’s Subs. We cleaned raw data, designed a dimensional model, automated ELT pipelines with Fivetran, Snowflake, and dbt, and delivered customer-facing visualizations through a web app built with Django and React.
 
 ## Contact
 
